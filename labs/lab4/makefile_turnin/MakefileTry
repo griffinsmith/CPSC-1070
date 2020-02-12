@@ -1,0 +1,2 @@
+tryit: tryit.c sort.c readwrite.c
+	gcc -g -o tryit tryit.c sort.c readwrite.c
