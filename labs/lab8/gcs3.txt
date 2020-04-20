@@ -1,0 +1,300 @@
+  241  ./calculator 7 / 7
+  242  make
+  243  ./calculator 7 / 7
+  244  ./calculator 69.3 / 60
+  245  make
+  246  ./calculator 69.3 / 60
+  247  ./calculator 7 / 7
+  248  ./calculator 7 x 7
+  249  ./calculator 7 - 7
+  250  ./calculator
+  251  ./calculator 1.5 + 2.5
+  252  ./calculator 1.5 - 2.5
+  253  ./calculator 1.5 x 2.5
+  254  ./calculator 1.5 / 2.5
+  255  ./calculator -1.5 / 2.5
+  256  ./calculator -1.5 + 2.5
+  257  make
+  258  ./calculator -1.5 + 2.5
+  259  make
+  260  ./calculator -1.5 + 2.5
+  261  ls
+  262  rm calculator
+  263  ls
+  264  rm calculator.o
+  265  ls
+  266  make
+  267  ls
+  268  rm calculator.o
+  269  rm calculator
+  270  ls
+  271  ls
+  272  cd ..
+  273  ls
+  274  zip -r brokencalculator.zip ~/Downloads/broken-calculator
+  275  ls
+  276  zip -r gcs3.zip ~/Downloads/broken-calculator
+  277  ls
+  278  cd ..
+  279  ls
+  280  cd CPSC-1070/
+  281  ls
+  282  cd labs
+  283  ls
+  284  ls
+  285  cd CPSC-1070/
+  286  ls
+  287  cd labs
+  288  cd lab7
+  289  ls
+  290  unzip veggies.zip 
+  291  ls
+  292  cd veggies
+  293  ls
+  294  make
+  295  ./reader vegetables.txt
+  296  ls
+  297  make
+  298  ./reader vegetables.txt
+  299  make
+  300  ./reader vegetables.txt
+  301  make
+  302  ./reader vegetables.txt
+  303  make
+  304  ./reader vegetables.txt
+  305  make
+  306  ./reader vegetables.txt
+  307  make
+  308  make
+  309  ./reader vegetables.txt
+  310  make
+  311  ./reader vegetables.txt
+  312  ls
+  313  cd CPSC-1070/
+  314  ls
+  315  cd labs
+  316  cd lab7
+  317  ls
+  318  cd veggies
+  319  ls
+  320  make
+  321  ./reader vegetables.txt
+  322  make
+  323  ./reader vegetables.txt
+  324  make
+  325  ./reader vegetables.txt
+  326  ls
+  327  ./reader veggieking.txt
+  328  cd CPSC-1070/
+  329  ls
+  330  cd labs
+  331  cd lab7
+  332  cd veggies
+  333  ls
+  334  make
+  335  ./reader veggieking.txt 
+  336  ls
+  337  rm reader.o
+  338  rm reader
+  339  ls
+  340  cd ..
+  341  ls
+  342  rm veggies.zip
+  343  ls
+  344  cd veggies
+  345  ls
+  346  cd ..
+  347  ls
+  348  zip -r gcs3.zip ~/
+  349  ls
+  350  cd veggie
+  351  cd veggies
+  352  ls
+  353  make
+  354  ./reader vegetables.txt
+  355  cd ..
+  356  ls
+  357  cd veggies/
+  358  ls
+  359  rm reader.o
+  360  rm reader
+  361  ls
+  362  cd ..
+  363  zip -r gcs3.zip ~/CPSC-1070/labs/lab7/veggies
+  364  ls
+  365  cd veggies
+  366  make
+  367  ./reader veggieking.txt 
+  368  ./reader vegetables.txt 
+  369  ./infloop
+  370  ls
+  371  cd CPSC-1070/
+  372  ls
+  373  cd labs
+  374  ls
+  375  cd lab8
+  376  ls
+  377  unzip unixstuff.zip
+  378  ls
+  379  cd unixstuff
+  380  ls
+  381  cat
+  382  cat > list1
+  383  cat list1
+  384  cat >> list1
+  385  cat list1
+  386  cat list1 list2 > biglist
+  387  cat list2
+  388  cat > list2
+  389  cat list1 list2 > biglist
+  390  cat biglist
+  391  sort
+  392  sort < biglist
+  393  sort < biglist > slist
+  394  cat slist
+  395  who
+  396  who > names.txt
+  397  sort < names.txt
+  398  who | sort
+  399  who | wc -1
+  400  who | wc -l
+  401  ls
+  402  ls list*
+  403  ls *list.txt
+  404  ls ?list.txt
+  405  man wc
+  406  whatis wc
+  407  man wc
+  408  wc -ml listerine
+  409  apropos keyword
+  410  apropos copy
+  411  ls -l
+  412  ls -lg
+  413  chmod go-rwx listofanimals
+  414  ls
+  415  chmod go-rwx list-of-animals.txt
+  416  chmod a+rw list-of-animals.txt
+  417  chmod go-rwx alist.txt
+  418  ls -l alist.txt
+  419  ls
+  420  ps
+  421  sleep 10
+  422  sleep 10 &
+  423  ./infloop
+  424  bg
+  425  jobs
+  426  fg %jobnumber
+  427  ./infloop
+  428  ls
+  429  sleep 10 ./infloop
+  430  bg
+  431  make
+  432  jobs
+  433  fg %jobnumber
+  434  fg %l
+  435  ps
+  436  sleep 10
+  437  sleep 10 &
+  438  ./infloop
+  439  sleep ./infloop
+  440  bg
+  441  ls
+  442  sleep 10 &
+  443  ./infloop
+  444  vim infloop.c
+  445  ./infloop
+  446  gcc infloop
+  447  ls
+  448  gcc infloop.c
+  449  ./infloop
+  450  ./infloop.c
+  451  vim infloop.c
+  452  gcc infloop.c
+  453  ./infloop
+  454  gcc infloop.c -o infloop
+  455  ./infloop
+  456  bg
+  457  bg
+  458  ccc
+  459  c;qqqqqqq
+  460  q
+  461  q
+  462  q
+  463  qq
+  464  cd CPSC-1070/
+  465  ls
+  466  cd labs
+  467  cd lab8
+  468  ls
+  469  cd unixstuff
+  470  ls
+  471  ./infloop
+  472  bg
+  473  jobs
+  474  jobs
+  475  cd CPSC-1070/
+  476  ls
+  477  cd labs
+  478  ls
+  479  cd lab8
+  480  ls
+  481  cd unixstuff
+  482  ls
+  483  jobs
+  484  fg %jobnumber
+  485  ./infloop
+  486  jobs
+  487  fg %jobnumber
+  488  fg %l
+  489  fg
+  490  jobs
+  491  fg %1
+  492  fg
+  493  ./infloop
+  494  kill %jobnumber
+  495  jobs
+  496  kill %1
+  497  jobs
+  498  ./infloop &
+  499  kill
+  500  cd CPSC-1070/
+  501  ls
+  502  cd labs
+  503  cd lab8
+  504  cd unixstuff
+  505  ./infloop
+  506  ps
+  507  kill 62177
+  508  ps
+  509  quota -v
+  510  df .
+  511  du
+  512  gzip arglist.txt
+  513  gunzip arglist.txt gz
+  514  gunzip arglist.txt.gz
+  515  ls
+  516  gzip arglist.txt
+  517  ls
+  518  gunzip arglist.txt.gz
+  519  ls
+  520  zip arglist arglist.txt
+  521  unzip arglist.zip
+  522  zip -r morestuff morestuff/
+  523  ls
+  524  cd ..
+  525  ls
+  526  cd unixstuff
+  527  ls
+  528  cd morestuff
+  529  mkdir morestuff
+  530  ls
+  531  zip -r morestuff morestuff/
+  532  tar -czf morestuff.tar.gz morestuff
+  533  tar -xf morestuff.tar.gz
+  534  file
+  535  file *
+  536  history 
+  537  history 
+  538  file *
+  539  history
+  540  history|tail -300 >> ~/gcs3.txt
